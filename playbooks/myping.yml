@@ -1,1 +1,5 @@
-ansibleplay/playbooks/myping.yml
+---
+- hosts: all
+  tasks : 
+   - name :ping into nodes:
+      ping :   
